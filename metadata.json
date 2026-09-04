@@ -1,0 +1,6 @@
+{
+  "name": "Lunch Picker",
+  "description": "A colourful spinning wheel lunch picker with satisfying animations and celebration effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
