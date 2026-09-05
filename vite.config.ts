@@ -5,7 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Lunch-Picker/',
+    // Supports both Vercel (served at root) and custom subpaths
+    base: process.env.VERCEL ? '/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
