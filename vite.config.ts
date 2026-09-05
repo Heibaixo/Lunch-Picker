@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Lunch-Picker/',,
+    base: '/Lunch-Picker/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
